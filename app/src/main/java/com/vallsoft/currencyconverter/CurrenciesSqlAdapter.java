@@ -1,4 +1,4 @@
-package com.example.zar.currencyconverter;
+package com.vallsoft.currencyconverter;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -9,7 +9,7 @@ import android.widget.CursorAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.zar.currencyconverter.data.Contract;
+import com.vallsoft.currencyconverter.data.Contract;
 
 
 public class CurrenciesSqlAdapter extends CursorAdapter {

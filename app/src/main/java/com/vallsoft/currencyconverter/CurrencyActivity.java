@@ -1,4 +1,4 @@
-package com.example.zar.currencyconverter;
+package com.vallsoft.currencyconverter;
 
 import android.app.ProgressDialog;
 import android.content.ActivityNotFoundException;
@@ -18,13 +18,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.zar.currencyconverter.Fragments.BaseFragments;
-import com.example.zar.currencyconverter.Fragments.FragmentConverter;
-import com.example.zar.currencyconverter.Fragments.FragmentExchangeRates;
-import com.example.zar.currencyconverter.Fragments.PagerAdapter;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
+import com.vallsoft.currencyconverter.Fragments.BaseFragments;
+import com.vallsoft.currencyconverter.Fragments.FragmentConverter;
+import com.vallsoft.currencyconverter.Fragments.FragmentExchangeRates;
+import com.vallsoft.currencyconverter.Fragments.PagerAdapter;
 
 import java.util.ArrayList;
 

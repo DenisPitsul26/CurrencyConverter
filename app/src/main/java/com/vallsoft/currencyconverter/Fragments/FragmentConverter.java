@@ -1,4 +1,4 @@
-package com.example.zar.currencyconverter.Fragments;
+package com.vallsoft.currencyconverter.Fragments;
 
 import android.app.ProgressDialog;
 import android.content.res.Resources;
@@ -16,11 +16,11 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.example.zar.currencyconverter.CustomSpinnerAdapter;
-import com.example.zar.currencyconverter.R;
-import com.example.zar.currencyconverter.SpinnerModel;
-import com.example.zar.currencyconverter.Utils;
-import com.example.zar.currencyconverter.data.Contract;
+import com.vallsoft.currencyconverter.CustomSpinnerAdapter;
+import com.vallsoft.currencyconverter.R;
+import com.vallsoft.currencyconverter.SpinnerModel;
+import com.vallsoft.currencyconverter.Utils;
+import com.vallsoft.currencyconverter.data.Contract;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;

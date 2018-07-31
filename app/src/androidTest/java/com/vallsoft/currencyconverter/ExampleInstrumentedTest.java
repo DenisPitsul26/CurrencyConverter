@@ -1,4 +1,4 @@
-package com.example.zar.currencyconverter;
+package com.vallsoft.currencyconverter;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

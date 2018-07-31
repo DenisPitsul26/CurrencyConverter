@@ -1,4 +1,4 @@
-package com.example.zar.currencyconverter;
+package com.vallsoft.currencyconverter;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -12,8 +12,8 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.example.zar.currencyconverter.data.Contract;
-import com.example.zar.currencyconverter.data.CurrencyDatabaseHelper;
+import com.vallsoft.currencyconverter.data.Contract;
+import com.vallsoft.currencyconverter.data.CurrencyDatabaseHelper;
 
 import org.json.JSONArray;
 import org.json.JSONException;

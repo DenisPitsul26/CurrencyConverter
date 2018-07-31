@@ -1,4 +1,4 @@
-package com.example.zar.currencyconverter.data;
+package com.vallsoft.currencyconverter.data;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -10,7 +10,7 @@ import android.net.Uri;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.example.zar.currencyconverter.data.Contract.CurrencyEntery;
+import com.vallsoft.currencyconverter.data.Contract.CurrencyEntery;
 
 
 public class CurrencyProvider extends ContentProvider {

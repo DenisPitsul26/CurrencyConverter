@@ -9,7 +9,7 @@
     android:focusable="true"
     android:focusableInTouchMode="true"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.zar.currencyconverter.CurrencyActivity"
+    tools:context="com.vallsoft.currencyconverter.CurrencyActivity"
     tools:showIn="@layout/app_bar_currency">
 
     <LinearLayout
@@ -18,7 +18,7 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:orientation="vertical"
-        tools:context="com.example.zar.currencyconverter.MainActivity">
+        tools:context="com.vallsoft.zar.currencyconverter.MainActivity">
 
         <LinearLayout
             android:layout_width="match_parent"

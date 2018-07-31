@@ -1,4 +1,4 @@
-package com.example.zar.currencyconverter;
+package com.vallsoft.currencyconverter;
 
 import org.junit.Test;
 

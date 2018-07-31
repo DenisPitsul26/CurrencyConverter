@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.zar.currencyconverter">
+    package="com.vallsoft.currencyconverter">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".CurrencyActivity"
+            android:name="com.vallsoft.currencyconverter.CurrencyActivity"
             android:label="@string/title_activity_currency"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -23,10 +23,16 @@
             </intent-filter>
         </activity>
 
+        <service android:name=".AppFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
 
         <provider
-            android:name=".data.CurrencyProvider"
-            android:authorities="com.example.zar.currencyconverter"
+            android:name="com.vallsoft.currencyconverter.data.CurrencyProvider"
+            android:authorities="com.vallsoft.currencyconverter"
             android:exported="false" />
 
     </application>

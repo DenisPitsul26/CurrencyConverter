@@ -1,4 +1,4 @@
-package com.example.zar.currencyconverter.Fragments;
+package com.vallsoft.currencyconverter.Fragments;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -18,10 +18,10 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.zar.currencyconverter.CurrenciesSqlAdapter;
-import com.example.zar.currencyconverter.R;
-import com.example.zar.currencyconverter.Utils;
-import com.example.zar.currencyconverter.data.Contract;
+import com.vallsoft.currencyconverter.CurrenciesSqlAdapter;
+import com.vallsoft.currencyconverter.R;
+import com.vallsoft.currencyconverter.Utils;
+import com.vallsoft.currencyconverter.data.Contract;
 
 
 public class FragmentExchangeRates extends BaseFragments implements LoaderManager.LoaderCallbacks<Cursor> {

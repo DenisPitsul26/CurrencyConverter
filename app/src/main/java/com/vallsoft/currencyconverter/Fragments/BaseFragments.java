@@ -1,4 +1,4 @@
-package com.example.zar.currencyconverter.Fragments;
+package com.vallsoft.currencyconverter.Fragments;
 
 import android.support.v4.app.Fragment;
 import android.view.View;
